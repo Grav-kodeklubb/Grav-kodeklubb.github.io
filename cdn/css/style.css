@@ -1,0 +1,21 @@
+body {
+    background-image: url("../img/bg.jpg");
+    font-family: 'Hind Madurai', sans-serif;
+}
+.loadingimg {
+    background-color: black;
+    border-radius: 100%;
+        animation: rotate 1s ease infinite;
+    }
+@keyframes rotate{
+     100%{ transform: rotate(360deg); }
+}
+.sameline {
+    display: inline-block;
+}
+#info {
+    background-image: url("../img/info.svg");
+}
+.announcement {
+    font-family: 'Righteous', cursive;
+}
